@@ -119,7 +119,7 @@ int main(void){
         // Dibujar el botón rojo
         DrawCircleV(botonCentro, botonRadio, RED);
         if (mostrarMensaje) {
-            DrawText("Hechizo de salto activado!(presiona M para ocultar)", 150, 680, 20, BLACK);
+            DrawText("Hechizo de salto activado!(presiona M para ocultar)", 150, 200, 20, BLACK);
         }
         EndDrawing();
 
